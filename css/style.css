@@ -264,10 +264,20 @@ main {
   z-index: -500;
 }
 
+.content {
+  width: 70%;
+  margin: 25% 2%;
+  float: left;
+}
+
+main a:hover {
+  cursor: pointer !important;
+}
+
 .intro {
   font-family: 'Montserrat', sans-serif;
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   z-index: -500 !important;
 }
@@ -296,10 +306,6 @@ h4 {
   margin: 20px 5.4%;
 }
 
-.button a :hover {
-  color: #ffff99;
-}
-
 .side {
   width: 20%;
   max-width: 256px;
@@ -310,11 +316,22 @@ h4 {
 
 .side a {
   text-decoration: none;
+  font-size: 80%;
+  text-align: center;
+  color: #99ffcc;
 }
 
-a h4 {
+.side a :hover {
+  color: #ffff99;
+}
+
+.buttons h4 {
   color: #99ffcc;
   font-size: 150%;
+}
+
+.buttons a :hover {
+  color: #ffff99;
 }
 
 .events iframe {
@@ -325,8 +342,6 @@ a h4 {
   border-radius: 10px;
 }
 
-.content {
-  width: 70%;
-  margin: 25% 2%;
-  float: left;
-}
+/*.blog a :hover {
+  color: #ffff99;
+}*/
