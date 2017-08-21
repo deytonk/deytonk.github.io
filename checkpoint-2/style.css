@@ -1,0 +1,47 @@
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 20px;
+}
+
+.title img {
+  width: 100%;
+  height: auto;
+}
+
+.nav img {
+  width: 100%;
+}
+
+li img {
+  width: 10%;
+}
+
+.nav-pills li {
+  font-size: 75%;
+}
+
+.social {
+  justify-items: flex-end;
+  list-style-type: none;
+}
+
+/*MEDIA QUERIES*/
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*phone*/
+@media (max-width: 767px) {
+
+}
