@@ -13,82 +13,108 @@
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+      <!-- font -->
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
     </head>
 
-    <body class="row">
-      <div class="container col-md-8">
-        <header>
+    <body>
+      <div class="container-fluid col-md-10">
 
-          <div class="row">
-            <div class="title col-md-12">
-              <img src="images/title.png" alt="Deyton's Portfolio" />
+        <header class="row col-xs-12">
+
+          <div class="row" id="header">
+
+            <div class="title col-md-6 col-sm-12">
+              <div class="stack">
+                <img id="fade_to" src="images/title2.png" alt="Deyton's Portfolio" />
+              </div>
+              <div class="stack">
+                <img id="fade_from" src="images/title.png" alt="Deyton's Portfolio" />
+              </div>
             </div>
-          </div>
 
-          <div class="row nav">
-
-            <div class="col-md-6 col-xs-12">
+            <div class="nav-container col-md-6 col-sm-12">
               <nav>
                 <ul class="nav nav-pills">
-                  <li role="presentation"><a href="index.html">Portfolio</a></li>
-                  <li role="presentation"><a href="http://deyton.squarespace.com/read-me/">Resume</a></li>
-                  <li role="presentation"><a href="http://deyton.squarespace.com">Design</a></li>
-                  <li role="presentation" class="dropdown">
+                  <li><a href="index.html">Portfolio</a></li>
+                  <li><a href="http://deyton.squarespace.com/read-me/">Resume</a></li>
+                  <li><a href="http://deyton.squarespace.com">Design</a></li>
+                  <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a target="_blank" href="#"><span><img src="images/phone.png" alt "phone icon" /></span>512-567-5658</a></li>
-                      <li><a target="_blank" href="#"><span><img src="images/email.png" alt "email icon" /></span>deyton.koch@gmail.com</a></li>
+                      <li><a target="_blank" href=tel:5125675658><span><img src="images/phone.png" alt "phone icon" /></span>512-567-5658</a></li>
+                      <li><a target="_blank" href="mailto:deyton.koch@gmail.com"><span><img src="images/email.png" alt "email icon" /></span>deyton.koch@gmail.com</a></li>
                     </ul>
                   </li>
                 </ul>
               </nav>
             </div>
 
-            <div class="col-xs-4">
-              <ul class="row social">
-                <li class="col-md-4">
+          </div>
+
+          <div class="row social">
+            <div class="col-md-5 col-xs-12">
+              <ul>
+                <li class="col-xs-4">
                   <a href="https://www.linkedin.com/in/deytonk/"><img src="images/linkedin.png" alt="linkedin icon"><img src="" alt=""></a>
                 </li>
-                <li class="col-md-4">
+                <li class="col-xs-4">
                   <a href="https://twitter.com/DeytonK"><img src="images/twitter.png" alt="twitter icon"><img src="" alt=""></a>
                 </li>
-                <li class="col-md-4">
+                <li class="col-xs-4">
                   <a href="https://www.instagram.com/deytonkoch/"><img src="images/instagram.png" alt="instagram icon"><img src="" alt=""></a>
                 </li>
               </ul>
             </div>
-
           </div>
+
+          <section class="about_me">
+            <p>Hey! My name is Deyton Koch and I am a self-driven go-getter on a mission to make a difference in this world. I put 110% in everything that I do and I love a new challenge. I will never stop learning, pushing myself and pursuing my dreams.</p>
+            <h3>Let's <a href="mailto:deyton.koch@gmail.com">connect!</a></h3>
+          </section>
 
         </header>
 
         <main>
 
-          <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <h2>Austin City Powersports</h2>
-              <img src="" alt="Austin City Powersports logo" />
-              <p>Austin City Powersports is a local, family-owned motorcycle and scooter full service dealer. I was tasked with building them a clean and simple website to promote their business and to serve their customers. The ease of navigation was their main concern, for their loyal older clientele, but they also wanted to appeal to the younger demographic as they were starting to sell more scooters.</p>
-            </div>
-            <div class="col-md-6 col-xs-12">
-              <h2>TLC Fosters</h2>
-              <img src="" alt="Adorable kitten"/>
-              <p>TLC Fosters is a non-profit organization located in Illinois that rescues animals, mostly cats. Their main objective is to direct a network of foster homes and promote local fostering and adoption events. The are constantly in need of help and support. Their site needs to be attractive and informative but also blunt, concise and emotional.</p>
-            </div>
-          </div>
+          <section class="flex">
 
-          <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <h2>The Zombie Run</h2>
-              <img src="" alt="The zombie run logo" />
-              <p>The Zombie Run is an annual 5k with a terrifying theme! As you run you are chased by zombies. This is a fun new take for pretty established marathon scene, with potential to attract a whole new demographic to that scene. The site was meant to be scary (while maintaining appeal), without too much clutter to distract from the registration and volunteer links. </p>
+            <div class="row" id="project-container-top">
+              <div class="col-md-6 col-xs-12">
+                <a target="_blank" class="projects" href="austincitypowersports.com">
+                  <h2>Austin City Powersports</h2>
+                  <img src="images/acpslogo.jpg" alt="Austin City Powersports logo" />
+                </a>
+                <p>Austin City Powersports is a local, family-owned motorcycle and scooter full service dealer. I was tasked with building them a clean and simple website to promote their business and to serve their customers. The ease of navigation was their main concern, for their loyal older clientele, but they also wanted to appeal to the younger demographic as they were starting to sell more scooters.</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <a target="_blank" class="projects" href="https://deytonk.github.io/web-workbook/checkpoints/checkpoint-1/">
+                  <h2>TLC Fosters</h2>
+                  <img src="images/tlclogo.jpg" alt="Adorable kitten"/>
+                </a>
+                <p>TLC Fosters is a non-profit organization located in Illinois that rescues animals, mostly cats. Their main objective is to direct a network of foster homes and promote local fostering and adoption events. The are constantly in need of help and support. Their site needs to be attractive and informative but also blunt, concise and emotional.</p>
+              </div>
             </div>
-            <div class="col-md-6 col-xs-12">
-              <h2>Conservation Services</h2>
-              <img src="" alt="Conservation Service's logo" />
-              <p>Conservation Services is a local, family-owned and operated insulation company. I was tasked with building them a website whose main objective was getting into contact with potential customers, but they also wanted to inform anyone visiting the site of the benefits of some of the services that they provide. They wanted a simple and fun website that would be easy to navigate through.</p>
+
+            <div class="row">
+              <div class="col-md-6 col-xs-12" id="project-container-bottom">
+                <a target="_blank" class="projects" href="https://deytonk.github.io/web-workbook/checkpoints/checkpoint-1/">
+                  <h2>Conservation Services</h2>
+                  <img src="images/cslogo.jpg" alt="Conservation Service's logo" />
+                </a>
+                <p>Conservation Services is a local, family-owned and operated insulation company. I was tasked with building them a website whose main objective was getting into contact with potential customers, but they also wanted to inform anyone visiting the site of the benefits of some of the services that they provide. They wanted a simple and fun website that would be easy to navigate through.</p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <a target="_blank" class="projects" href="https://deytonk.github.io/web-workbook/checkpoints/checkpoint-1/">
+                  <h2>The Zombie Run</h2>
+                  <img src="images/zombielogo.jpg" alt="The zombie run logo" />
+                </a>
+                <p>The Zombie Run is an annual 5k with a terrifying theme! As you run you are chased by zombies. This is a fun new take for pretty established marathon scene, with potential to attract a whole new demographic to that scene. The site was meant to be scary (while maintaining appeal), without too much clutter to distract from the registration and volunteer links. </p>
+              </div>
             </div>
-          </div>
+
+          </section>
 
         </main>
 
